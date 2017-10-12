@@ -22,8 +22,8 @@ You may use any combination of configuration files, environment variables, or co
 
 Parameter     | ENV var name  | Default | Description
 ------------- | ------------- | ------- | -----------
-`app:base_url` | `CAS_PROXY__APP__BASE_URL` | `http://localhost` | The base URL for your application or content. Used to popular the CAS `service` parameter
-`app:port` | `CAS_PROXY__APP__PORT` | 80 | Port that express listens on
+`app:base_url` | `CAS_PROXY__APP__BASE_URL` | `http://localhost:8000` | The base URL for your application or content. Used to popular the CAS `service` parameter
+`app:port` | `CAS_PROXY__APP__PORT` | 8000 | Port that express listens on
 `app:session_secret` | `CAS_PROXY__APP__SESSION_SECRET` | `my secret` | Secret used for signing cookie data
 `cas:base_url` | `CAS_PROXY__CAS__BASE_URL` | | Base url for your CAS server. Required
 `cas:renew` | `CAS_PROXY__CAS__RENEW` | `false` | Forces presentation of primary credentials when session is initialized
