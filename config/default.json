@@ -1,0 +1,10 @@
+{
+  "app": {
+    "base_url": "http://localhost",
+    "port": 8000,
+    "session_secret": "my secret"
+  },
+  "cas": {
+    "renew": false
+  }
+}
